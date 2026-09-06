@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ko" data-theme="ocean">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>우리 캠페인</title>
+<style>
+  :root{
+    --bg:#0b2545; --fg:#ffffff; --accent:#5bc0eb; --sub:#a8dadc;
+    --font:"맑은 고딕","Malgun Gothic",sans-serif;
+  }
+  [data-theme="ocean"] { --bg:#0b2545; --fg:#ffffff; --accent:#5bc0eb; --sub:#a8dadc; }
+  [data-theme="forest"]{ --bg:#14281d; --fg:#f4fff8; --accent:#7cb518; --sub:#c3e8bd; }
+  [data-theme="sunset"]{ --bg:#3d1e2e; --fg:#fff5e1; --accent:#ff8c42; --sub:#ffd9a0; }
+  [data-theme="night"] { --bg:#12121c; --fg:#f0f0ff; --accent:#9b8cff; --sub:#c9c4e8; }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--fg);font-family:var(--font);overflow:hidden}
+  .slide{
+    position:absolute;inset:0;display:none;
+    flex-direction:column;justify-content:center;align-items:center;
+    text-align:center;padding:6vh 8vw;gap:2.4vh;
+  }
+  .slide.on{display:flex}
+  h1{font-size:7vh;line-height:1.2;color:var(--accent)}
+  h2{font-size:5vh;line-height:1.25;color:var(--accent)}
+  p,li{font-size:3.4vh;line-height:1.5;color:var(--fg)}
+  ul{text-align:left;max-width:80%}
+  li{margin:1vh 0}
+  .team{font-size:3vh;color:var(--sub)}
+  .media{max-width:70%;max-height:52vh;border-radius:1.6vh}
+  .hint{position:fixed;right:2vw;bottom:2vh;font-size:1.8vh;color:var(--sub);opacity:.7}
+  .page{position:fixed;left:2vw;bottom:2vh;font-size:1.8vh;color:var(--sub);opacity:.7}
+</style>
+</head>
+<body>
+
+<!-- 1. 표지 -->
+<section class="slide on">
+  <h1>지구지킴이</h1>
+  <p class="team">11조</p>
+</section>
+
+<!-- 2. 우리가 찾은 문제 -->
+<section class="slide">
+  <h2>우리가 찾은 문제</h2>
+  <ul>
+    <li>지구가 점점 뜨거워지고 있어요</li>
+    <li>빙하가 녹고 바다가 높아져요</li>
+    <li>쓰레기도 점점 많아지고 있어요</li>
+  </ul>
+</section>
+
+<!-- 3. 우리의 질문 -->
+<section class="slide">
+  <h2>우리의 질문</h2>
+  <p>우리가 어떻게 하면 환경을 지키는 걸 재미있게 배우고 실천할 수 있을까?</p>
+</section>
+
+<!-- 4. 우리의 캠페인 -->
+<section class="slide">
+  <h2>우리의 캠페인</h2>
+  <ul>
+    <li>지구지킴이 픽셀 게임으로 놀면서 지구를 지켜요</li>
+    <li>게임을 하며 환경을 지키는 법을 배워요</li>
+  </ul>
+</section>
+
+<!-- 5. 지구지킴이 게임 -->
+<section class="slide">
+  <h2>지구지킴이 게임</h2>
+  <ul>
+    <li>지구가 캐릭터가 되어 모험해요</li>
+    <li>W A S D 키로 움직여요</li>
+    <li>반짝이는 ? 를 찾아가면 문제가 나와요</li>
+  </ul>
+</section>
+
+<!-- 6. 코인으로 지구를 꾸며요 -->
+<section class="slide">
+  <h2>코인으로 지구를 꾸며요</h2>
+  <ul>
+    <li>문제를 풀면 코인을 받아요</li>
+    <li>연속으로 맞히면 보너스 코인!</li>
+    <li>코인으로 풀·꽃·나무를 사서 지구를 되살려요</li>
+  </ul>
+</section>
+
+<!-- 7. 그림전시회 -->
+<section class="slide">
+  <h2>그림전시회</h2>
+  <ul>
+    <li>환경 포스터를 직접 그려요</li>
+    <li>전시회에 작품을 모아요</li>
+    <li>AI가 우수작을 뽑아 줘요</li>
+  </ul>
+</section>
+
+<!-- 8. 우리가 만든 것 -->
+<section class="slide">
+  <h2>우리가 만든 것</h2>
+  <ul>
+    <li>지구지킴이 픽셀 게임 (모험·퀴즈)</li>
+    <li>코인 상점과 지구 꾸미기</li>
+    <li>그림전시회와 AI 우수작</li>
+    <li>지구온난화 학습자료</li>
+  </ul>
+</section>
+
+<!-- 9. 이렇게 실천해요 -->
+<section class="slide">
+  <h2>이렇게 실천해요</h2>
+  <ul>
+    <li>불을 켠 채 방을 나가지 않아요</li>
+    <li>쓰레기는 분리수거해요</li>
+    <li>친구들과 지구지킴이 앱을 같이 해요</li>
+  </ul>
+</section>
+
+<!-- 여기에 친구들 슬라이드가 들어갑니다 (합쳐줘 를 쓰면 아래에 채워져요) -->
+
+<!-- 10. 우리 팀 -->
+<section class="slide">
+  <h2>우리 팀</h2>
+  <p class="team">11조</p>
+  <p>들어 주셔서 고맙습니다!</p>
+</section>
+
+<div class="page"><span id="now">1</span> / <span id="all">8</span></div>
+<div class="hint">← → 눌러서 넘기기</div>
+
+<!-- 움직임 라이브러리. 없어도 발표자료는 그대로 보인다 -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+
+<script>
+(function(){
+  var slides = document.querySelectorAll('.slide');
+  var i = 0;
+  document.getElementById('all').textContent = slides.length;
+
+  // 움직임을 불편해하는 사람을 위한 설정을 존중한다
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // 장이 나타날 때 안쪽 요소가 아래에서 살짝 올라온다.
+  // GSAP 이 없거나(CDN 실패) 사용자가 움직임을 껐으면 그냥 보여준다.
+  // 무슨 일이 있어도 글은 보여야 한다. 인라인 스타일을 지워 원래 모습으로 돌린다.
+  function 무조건보이기(items){
+    for (var k = 0; k < items.length; k++) {
+      items[k].style.opacity = '';
+      items[k].style.transform = '';
+      items[k].style.translate = '';
+      items[k].style.rotate = '';
+      items[k].style.scale = '';
+    }
+  }
+
+  function animateIn(slide){
+    var items = slide.children;
+
+    // 움직임을 껐거나, CDN 이 실패했거나, 화면에 안 보이는 탭이면 그냥 보여준다.
+    // (안 보이는 탭에서는 브라우저가 애니메이션을 멈춰서 opacity 0 으로 굳는다)
+    if (reduceMotion || !window.gsap || document.hidden) {
+      무조건보이기(items);
+      return;
+    }
+
+    gsap.killTweensOf(items);
+    gsap.fromTo(items,
+      { opacity: 0, y: 18 },
+      { opacity: 1, y: 0, duration: 0.45, stagger: 0.08, ease: 'power2.out', clearProps: 'all' }
+    );
+
+    // 마지막 안전망: 1.2초 뒤에도 아직 투명하면 애니메이션을 포기하고 보여준다.
+    // 발표 중에 글이 안 보이는 것보다 움직임이 없는 게 낫다.
+    clearTimeout(slide.__safety);
+    slide.__safety = setTimeout(function(){
+      if (items.length && getComputedStyle(items[0]).opacity !== '1') {
+        gsap.killTweensOf(items);
+        무조건보이기(items);
+      }
+    }, 1200);
+  }
+
+  // 탭으로 돌아왔을 때 굳어 있으면 풀어 준다
+  document.addEventListener('visibilitychange', function(){
+    if (!document.hidden) { animateIn(slides[i]); }
+  });
+
+  function show(n){
+    if (n < 0) n = 0;
+    if (n > slides.length - 1) n = slides.length - 1;
+    slides[i].classList.remove('on');
+    i = n;
+    slides[i].classList.add('on');
+    document.getElementById('now').textContent = i + 1;
+    animateIn(slides[i]);
+  }
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { show(i+1); }
+    if (e.key === 'ArrowLeft'  || e.key === 'PageUp')                   { show(i-1); }
+    if (e.key === 'Home') { show(0); }
+    if (e.key === 'End')  { show(slides.length-1); }
+  });
+  document.addEventListener('click', function(e){
+    show(e.clientX < window.innerWidth/3 ? i-1 : i+1);
+  });
+
+  // 첫 장에도 등장 애니메이션을 걸어 준다.
+  // CDN 이 늦게 도착할 수 있으니 load 까지 기다린다.
+  if (document.readyState === 'complete') { animateIn(slides[0]); }
+  else { window.addEventListener('load', function(){ animateIn(slides[0]); }); }
+})();
+</script>
+</body>
+</html>
